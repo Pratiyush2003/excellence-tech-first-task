@@ -132,7 +132,7 @@
   }
   
   section,footer {
-    margin: 5vh 10vw 0 10vw;
+    margin: 4vh 15vw 0 15vw;
   }
   
   .js-header {
@@ -142,13 +142,14 @@
   }
   
   .js-header h2 {
-    font-size: var(--font-size-large);
+    font-size: 1.375rem;
+    font-weight: 400;
     margin: 0;
   }
   
   .js-header p {
     font-size: var(--font-size-medium);
-    margin-top: 1.5rem;
+    margin-top: 1.1rem;
     margin-left: 1rem;
   }
   
