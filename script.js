@@ -59,17 +59,17 @@ const data = [
 ];
 
 document.getElementsByClassName('grid-container')[0].innerHTML = data.map((item) => `
-    <div class="grid-item">
-        <div>
-            <img src="${item.img}" alt="" srcset="">
-        </div>
-        <div class="js-card-details">
-            <div>
-                <h5>${item.name}</h5>
-            </div>
-            <div>
-                <p>${item.description}</p>
-            </div>
-        </div>
+  <div class="grid-item">
+    <div>
+      <img src="${item.img}" alt="${item.name}">
     </div>
+    <div class="js-card-details">
+      <div>
+        <h5 class="js-card-details-1">${item.name}</h5>
+      </div>
+      <div>
+        <p class="js-description">${item.description}</p>
+      </div>
+    </div>
+  </div>
 `).join('');
